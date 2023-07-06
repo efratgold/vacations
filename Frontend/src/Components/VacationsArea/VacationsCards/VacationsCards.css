@@ -1,0 +1,44 @@
+
+.card {
+        border-radius: 10px solid;  
+        border: 2px;  
+        width: 1000px;
+        height: 100%;
+        max-width: 350px;
+        margin: 15px;
+        
+}
+
+.card img {
+        display: inline-block;
+        max-width: 370px;
+        height: 230px;
+
+}
+
+.VacationsCards {
+    display: inline-block;
+    width: 400px;
+    /* height: 700px;  */
+    border: 1px solid;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 10px;
+    vertical-align: middle;
+    margin: 15px;
+    /* flex-wrap: wrap; */
+    /* align-items: flex-start; */
+}
+
+.VacationsCard > div:last-child {
+    margin-left: auto;
+}
+
+p {
+   overflow: hidden;
+}
+.collapsed {
+   display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
